@@ -34,7 +34,7 @@ def Predict():
     values=[[abtest, vehicleType, yearOfRegistration, gearbox, powerPS, model,kilometer, monthOfRegistration, fuelType, brand, notRepairedDamage ,postalCode]]
     
     # NOTE: you must manually set API_KEY below using information retrieved from your IBM Cloud account.
-    API_KEY = "CfDUcJPiNifKOS66z3JgWMTASTRiMkSGq4oOCs1L8PJz"
+    API_KEY = [Enter api key]
     token_response = requests.post('https://iam.cloud.ibm.com/identity/token', data={"apikey":
     API_KEY, "grant_type": 'urn:ibm:params:oauth:grant-type:apikey'})
     mltoken = token_response.json()["access_token"]
