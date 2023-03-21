@@ -18,7 +18,7 @@ The predicted price can then be displayed on the web application for the user to
 
 ## Dataset
 
-The dataset was taken from kraggle. The csv file contains features like 
+The dataset was taken from kraggle. The csv file contains features like vehicleType, yearOfRegistration, gearbox, model and fuelType
 
 ## Requirements
 Python 3.x
